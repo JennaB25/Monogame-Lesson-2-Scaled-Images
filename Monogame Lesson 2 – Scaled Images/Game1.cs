@@ -20,7 +20,9 @@ namespace Monogame_Lesson_2___Scaled_Images
 
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
+            _graphics.PreferredBackBufferWidth = 800;
+            _graphics.PreferredBackBufferHeight = 500;
+            _graphics.ApplyChanges();
 
             base.Initialize();
         }
@@ -29,7 +31,9 @@ namespace Monogame_Lesson_2___Scaled_Images
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
+            rectangleTexture = Content.Load<Texture2D>("rectangle");
+            circleTexture = Content.Load<Texture2D>("circle");
+
         }
 
         protected override void Update(GameTime gameTime)
