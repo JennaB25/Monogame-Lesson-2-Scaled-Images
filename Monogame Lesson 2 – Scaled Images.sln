@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monogame Lesson 2 – Scaled Images", "Monogame Lesson 2 – Scaled Images\Monogame Lesson 2 – Scaled Images.csproj", "{BED242BD-6D06-4987-8387-1722C20287EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BED242BD-6D06-4987-8387-1722C20287EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED242BD-6D06-4987-8387-1722C20287EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED242BD-6D06-4987-8387-1722C20287EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED242BD-6D06-4987-8387-1722C20287EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E793D0DC-C838-4DED-8E3B-F765FEBF94F6}
+	EndGlobalSection
+EndGlobal
