@@ -6,6 +6,8 @@ namespace Monogame_Lesson_2___Scaled_Images
 {
     public class Game1 : Game
     {
+        Texture2D rectangleTexture;
+        Texture2D circleTexture;
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
